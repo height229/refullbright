@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.height229.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"InGameHudMixin",
+		"SimpleOptionMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
