@@ -15,6 +15,7 @@ public class reFullbrightClient implements ClientModInitializer {
         // This entrypoint is suitable for setting up client-specific logic, such as rendering.
         hotkey = KeyBindingHelper.registerKeyBinding(new KeyBinding("refullbright.key.togglefullbright", InputUtil.Type.KEYSYM, 71, "key.categories.misc"));
 
+        // There is probably an easier way of doing this, until we find a better way of doing it this will have to do! - height229
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (hotkey.isPressed() && waitUntil > 5) {
                 reFullbright.enabled = !reFullbright.enabled;
