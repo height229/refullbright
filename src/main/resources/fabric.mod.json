@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "refullbright",
+	"version": "${version}",
+	"name": "reFullbright",
+	"description": "reFullbright is a free and open-source fullbright mod for Minecraft.",
+	"authors": [
+		"height229 <height229@existnetwork.com>"
+	],
+	"contact": {
+		"homepage": "https://height229.com/",
+		"sources": "https://github.com/height229/refullbright",
+		"issues": "https://github.com/height229/refullbright/issues"
+	},
+	"license": "GPL-3.0-only",
+	"icon": "assets/refullbright/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.height229.reFullbright"
+		],
+		"client": [
+			"com.height229.reFullbrightClient"
+		]
+	},
+	"mixins": [
+		"refullbright.mixins.json",
+		{
+			"config": "refullbright.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
