@@ -1,3 +1,4 @@
 {
-  "refullbright.key.togglefullbright": "Toggle Fullbright"
+  "key.refullbright.togglefullbright": "Toggle Fullbright",
+  "key.refullbright.category": "reFullbright"
 }
