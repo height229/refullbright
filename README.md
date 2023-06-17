@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/github/issues/height229/refullbright?label=Issues" alt="GitHub Issues" />
     <img src="https://img.shields.io/github/last-commit/height229/refullbright?label=Last%20Commit" alt="GitHub Commit" />
     <img src="https://img.shields.io/github/license/height229/refullbright?label=License" alt="GitHub License" />
-    <img src="https://img.shields.io/badge/Minecraft-1.20.1-success" alt="Minecraft 1.20.1" />
+    <img src="https://img.shields.io/badge/Minecraft-1.20-success" alt="Minecraft 1.20" />
 </p>
 
 ## About
@@ -15,7 +15,7 @@ reFullbright is a fabric mod that lets you enhance your Minecraft experience by 
 Fabric API
 
 ## How to use it
-Just install the mod using `Fabric for 1.20.1` and install the `Fabric API` mod and toggle the fullbright mode by pressing `G (default)`. The shortcut can be changed in the `Controls` option in Minecraft.
+Just install the mod using `Fabric for 1.20` and install the `Fabric API` mod and toggle the fullbright mode by pressing `G (default)`. The shortcut can be changed in the `Controls` option in Minecraft.
 
 ## Build
 To build this from source you just need to clone this repository and run `gradlew build` in whatever minecraft version branch that suits you! \
